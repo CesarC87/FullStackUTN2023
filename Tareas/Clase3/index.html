@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-border" style="border: 1px solid;padding: 10px 25px;">
+        <span style="margin: 0;">Informacion Personal</span>
+        <form action="">
+            <div class="form__sexo" style="margin: 15px 0;">
+                <span>Sexo:</span>
+                <input type="radio" id="hombre" name="hombre">Hombre
+                <input type="radio" id="mujer" name="mujer">Mujer
+            </div>
+            <div class="form__nombre" style="margin: 15px 0;">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="form__apellido" style="margin: 15px 0;">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+            <div class="form__talle" style="margin: 15px 0;">
+                <label for="talle">Talle:</label>
+                <select name="talle" id="talle">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+            </div>
+            <div class="form__button__submit" style="margin: 15px 0;">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
